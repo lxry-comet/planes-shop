@@ -1,0 +1,50 @@
+import Planes from './components/Planes';
+import planes from './json/planes.json';
+export default function App() {
+  return (
+    <div>
+      <Planes
+        id={planes[0].id}
+        urlMain={planes[0].urlMain}
+        urlPromotional={planes[0].urlPromotional}
+        urlActual={planes[0].urlActual}
+        nameBrief={planes[0].nameBrief}
+        nameFull={planes[0].nameFull}
+        nickname={planes[0].nickname}
+        year={planes[0].year}
+        country={planes[0].country}
+        type={planes[0].type}
+        price={planes[0].price}
+        description={planes[0].description}
+      />
+      <Planes
+        id={planes[1].id}
+        urlMain={planes[1].urlMain}
+        urlPromotional={planes[1].urlPromotional}
+        urlActual={planes[1].urlActual}
+        nameBrief={planes[1].nameBrief}
+        nameFull={planes[1].nameFull}
+        nickname={planes[1].nickname}
+        year={planes[1].year}
+        country={planes[1].country}
+        type={planes[1].type}
+        price={planes[1].price}
+        description={planes[1].description}
+      />
+       <Planes
+        id={planes[2].id}
+        urlMain={planes[2].urlMain}
+        urlPromotional={planes[2].urlPromotional}
+        urlActual={planes[2].urlActual}
+        nameBrief={planes[2].nameBrief}
+        nameFull={planes[2].nameFull}
+        nickname={planes[2].nickname}
+        year={planes[2].year}
+        country={planes[2].country}
+        type={planes[2].type}
+        price={planes[2].price}
+        description={planes[2].description}
+      />
+  </div>
+  );
+};
